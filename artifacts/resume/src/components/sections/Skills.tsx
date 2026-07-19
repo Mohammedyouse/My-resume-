@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { SiPython, SiCplusplus, SiC, SiJavascript, SiHtml5, SiMysql, SiGit, SiGithub } from 'react-icons/si';
-import { FaJava, FaChartBar, FaBrain, FaDatabase, FaServer, FaUsers, FaLightbulb, FaClock, FaComments, FaCss3Alt } from 'react-icons/fa';
+import { FaJava, FaChartBar, FaBrain, FaDatabase, FaServer, FaCss3Alt } from 'react-icons/fa';
 
 const SKILLS_CATEGORIES = [
   {
@@ -18,8 +18,8 @@ const SKILLS_CATEGORIES = [
     ]
   },
   {
-    title: "Data Science",
-    icon: <FaChartBar className="text-primary w-5 h-5" />,
+    title: "Artificial Intelligence & Data",
+    icon: <FaBrain className="text-primary w-5 h-5" />,
     skills: [
       { name: "Machine Learning", icon: <FaBrain className="w-5 h-5" /> },
       { name: "Data Analysis", icon: <FaChartBar className="w-5 h-5" /> },
@@ -30,29 +30,19 @@ const SKILLS_CATEGORIES = [
     title: "Computer Science",
     icon: <FaDatabase className="text-primary w-5 h-5" />,
     skills: [
-      { name: "Data Structures", icon: null },
-      { name: "Algorithms", icon: null },
+      { name: "Data Structures & Algorithms", icon: null },
       { name: "DBMS", icon: <FaDatabase className="w-5 h-5" /> },
       { name: "Operating Systems", icon: null },
+      { name: "Computer Networks", icon: null },
     ]
   },
   {
     title: "Tools & Technologies",
     icon: <SiGit className="text-primary w-5 h-5" />,
     skills: [
+      { name: "Git", icon: <SiGit className="w-5 h-5" /> },
       { name: "GitHub", icon: <SiGithub className="w-5 h-5" /> },
-      { name: "Excel", icon: null },
-    ]
-  },
-  {
-    title: "Soft Skills",
-    icon: <FaUsers className="text-primary w-5 h-5" />,
-    skills: [
-      { name: "Communication", icon: <FaComments className="w-5 h-5" /> },
-      { name: "Negotiation", icon: null },
-      { name: "Problem Solving", icon: <FaLightbulb className="w-5 h-5" /> },
-      { name: "Teamwork", icon: <FaUsers className="w-5 h-5" /> },
-      { name: "Time Management", icon: <FaClock className="w-5 h-5" /> },
+      { name: "Microsoft Excel", icon: null },
     ]
   }
 ];

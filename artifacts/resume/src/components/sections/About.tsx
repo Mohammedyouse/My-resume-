@@ -26,7 +26,7 @@ export function About() {
             >
               <h3 className="text-xl font-display font-semibold mb-4 text-primary">Professional Summary</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Computer Science and Engineering student with a strong interest in Data Science, Artificial Intelligence, and data-driven decision-making. Experienced in academic and personal projects including machine learning, data analysis, and software development. Motivated to pursue a Master's degree in Data Science and work on technology-driven solutions that solve real-world problems.
+                Computer Science and Engineering student with a strong interest in Artificial Intelligence, Machine Learning, and software engineering. Passionate about solving real-world problems through technology and developing innovative software solutions. Strong foundation in programming, software engineering, and problem-solving through academic and personal projects, with a commitment to continuous learning and professional growth.
               </p>
             </motion.div>
 
@@ -40,7 +40,7 @@ export function About() {
               <div className="bg-card border border-border p-8 rounded-2xl shadow-sm flex-1">
                 <h3 className="text-xl font-display font-semibold mb-4 text-primary">Career Objective</h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  To leverage my skills in Data Science and AI to build impactful solutions that support data-driven decision-making in organizations and communities, while continuously growing as a software engineer and researcher.
+                  Aspiring to pursue a career in Applied Artificial Intelligence and AI Engineering, with a focus on building intelligent software solutions for real-world challenges, while continuously growing as a software engineer and researcher.
                 </p>
               </div>
 
