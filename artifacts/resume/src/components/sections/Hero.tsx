@@ -41,8 +41,7 @@ export function Hero() {
           transition={{ duration: 0.5, delay: 0.2 }}
         >
           <h2 className="text-xl md:text-2xl font-medium text-foreground/80 mb-6">
-            Computer Science & Engineering Student <span className="text-primary mx-2">|</span> Data Science & AI Enthusiast
-          </h2>
+            Computer Science & Engineering Student <span className="text-primary mx-2">|</span> AI Engineer & Intelligent Systems Developer
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-10 italic">
             "Turning data into decisions and code into solutions."
           </p>
